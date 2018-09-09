@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="toms.test"
+    errors="0" failures="0" hostname="" id="" package="toms.test" skipped="0"
+    tests="2" time="5.411" timestamp="Sun, 09 Sep 2018 17:51:59 GMT">
+  
+    <testcase name="Title is 2getThere" classname="toms.test" time="2.534" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Terminal typing" classname="toms.test" time="2.877" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

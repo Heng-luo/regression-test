@@ -1,0 +1,19 @@
+{
+  "name": "toms-automated-regression",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "XinLi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chromedriver": "^2.41.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.14.0"
+  },
+  "scripts": {
+    "e2e": "nightwatch -c tests/nightwatch.conf.js -e chrome"
+  },
+  "dependencies": {}
+}
