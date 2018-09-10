@@ -12,7 +12,7 @@ export default {
       'Terminal typing': (browser) => {
         const terminalSelector = 'input.terminal-input';
         login(browser, 'http://192.168.1.168:8620/inspector/#!/terminal')
-          .waitForElementVisible('.terminal-viewport', 1000)
+          .waitForElementVisible('.terminal-viewport:first-child', 1000)
           .setValue(terminalSelector, 'run your script')
           .end()
       }

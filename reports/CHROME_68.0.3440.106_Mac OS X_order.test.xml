@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="order.test"
+    errors="0" failures="1" hostname="" id="" package="order.test" skipped="0"
+    tests="1" time="30.27" timestamp="Sun, 09 Sep 2018 22:16:26 GMT">
+  
+    <testcase name="Test order" classname="order.test" time="30.27" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;.table-condensed&gt; to be present for 1000 milliseconds.">    at Object.TestOrder [as Test order] (/Users/heng/XL/tomsAutomatedRegression/tests/features/order.test.js:6:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
